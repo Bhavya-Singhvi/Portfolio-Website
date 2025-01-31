@@ -1,0 +1,257 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    background-image: url('D:/Projects/portfolio website/background-image2.jpg');
+    background-blend-mode: multiply;
+    background-color: rgb(79, 42, 124);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+@media (max-width:600px) {
+    .intro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+    /* .socials{
+        display:flex;
+        flex-wrap: wrap;
+        margin-left:35%; 
+        align-items: center; 
+    } */
+    .skill_container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:40px;
+    }
+    .skill1{
+        border: 3px solid black;
+        height: fit-content;
+        width: fit-content;
+        padding-top: 10px;
+        border-radius: 10px;
+    }
+
+    .project_container {
+            flex-wrap: wrap; 
+    }
+    
+    .project-placard {
+            width: 90%; 
+            max-width: 400px; 
+    }
+    }
+
+
+#profile{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-left: 12%;
+    margin-top: -10px; 
+    box-shadow: 2px 2px 3px rgba(65, 5, 67, 0.711); 
+}
+#greeting{
+    font-size:2.5em;
+    margin-left: 100px;
+    color: #fff;
+}
+#head_text{
+     margin-left: 100px;
+     font-size: 3.8em; 
+     margin-top: -30px; 
+     color: #fff;
+}
+
+#hola{
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+g{
+    color:rgba(103, 6, 107, 0.711);
+}
+.headline{
+    font-size:1.5em;
+    /* margin-left:100px; */
+    color: #fff;
+}
+
+.sidebar{
+    height: 100%;
+    width:0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 9999;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+.sidebar a{
+  padding: 8px 8px 8px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s; 
+}
+.sidebar a:hover{
+    color: red;
+}
+.open_navbar{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    z-index: 999;
+    padding: 10px;
+    font-size: 17px;
+    margin: 15px;
+    color:black;
+    background-color: #fff;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.myself{
+    margin: 1.5%;
+}
+#about{
+    font-size: 2.3em;
+    text-align: center;
+    color: rgba(98, 8, 101, 0.711);
+}
+.about_me{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: -15px;
+    color:#fff
+}
+.Resume{
+    font-size: larger;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color:#fff;
+    text-align: center;
+}
+#resume_button{
+    margin-top: 10px;
+    padding: 5px;
+    height: 40px;
+    width:120px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    /* background-color:rgb(10, 120, 56); */
+    color:black;
+}
+.skillset{
+    margin: 1.5%;
+}
+#skills{
+    font-size: 2.3em;
+    text-align: center;
+    color: rgba(98, 8, 101, 0.711);
+}
+.skill_container{
+    display: flex;
+    justify-content:center ;
+    gap: 100px;
+}
+.skill1{
+    border: 3px solid black;
+    height:fit-content;
+    width:30%;
+    padding-top: 10px;
+    text-align: center;
+    color:#fff;
+    border-radius: 10px;
+    text-shadow:3px 3px 3px rgba(65, 5, 67, 0.711);
+    box-shadow: 3px 3px 3px rgba(65, 5, 67, 0.711);
+}
+b{
+    font-size: x-large;
+}
+ul{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 1.2em;
+    text-shadow: none;
+}
+#Projects{
+    font-size: 2.3em;
+    text-align: center;
+    color:  rgba(98, 8, 101, 0.711);
+}
+.project_container{
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;
+}
+.project-placard{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    height: 250px;
+    width: 400px;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* box-shadow: 5px 5px 5px rgba(65, 5, 67, 0.711); */
+}
+.project-placard img{
+    height: 100px;
+    width: 100px;
+    margin-left: 90px;
+}
+.project-placard a{
+    color:#fff;
+    text-align: center;
+}
+.project-details{
+    color: #fff;
+}
+.project-placard:hover{
+    box-shadow: 7px 7px 7px rgba(65, 5, 67, 0.711);
+}
+#Contact{
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(98, 8, 101, 0.711);
+}
+.socials{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:35%;
+}
+.social_media{
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    margin-top:0%;
+    margin-bottom: 0px;
+    cursor:pointer;
+}
+.social_media:hover{
+    transform:scale(1,1.2);
+}
+.details{
+    text-align: center;
+    color: #fff;
+    font-size: x-large;
+}
